@@ -1,0 +1,174 @@
+.wrapper{
+	width: 90%;
+	margin: 2em auto;
+}
+
+header{
+	background-color: red;
+
+}
+
+body {
+	background-color: #c1cdcd;
+}
+
+img { 
+	max-width: 100%; 
+	height: auto; 
+}
+
+.port-phone { 
+	display: block; 
+}
+
+.desktop,
+.land-phone,
+.port-tab,
+.wide-desk { 
+	display: none; 
+}
+
+h1{
+	font-size: 2em;
+}
+
+p{
+	font-size: 1.4em;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+footer{
+	clear: both;
+}
+
+
+@media only screen and (min-width: 30em) {
+	header{
+		background-color: orange;
+
+	}
+
+	h1{
+		font-size: 2.2em;
+
+	}
+
+	p{
+		font-size: 1.2em;
+	}
+
+	.land-phone	
+	{
+		display: block; 
+	}
+
+	.port-phone,
+	.desktop,
+	.port-tab,
+	.wide-desk { 
+		display: none; 
+	}
+}
+
+@media only screen and (min-width: 48em) {
+	.wrapper{
+		width: 48em;
+
+	}
+	header{
+		background-color: yellow;
+
+	}
+	.port-tab{
+		display:block;
+	}
+	.post-phone,
+	.land-phone,
+	.desktop,
+	.wide-desk {
+		display: none;
+	}
+
+	h1{
+		font-size: 2.8em;
+
+	}
+
+	p{
+		font-size: 1em;
+	}
+
+}
+@media only screen and (min-width: 60em){
+	header{
+		background-color: green;
+	}
+
+	.desktop { 
+		display: block; 
+	}
+
+	.port-phone,
+	.land-phone,
+	.port-tab,
+	.wide-desk { 
+		display: none; 
+	}
+
+	article{
+		float: left;
+	}
+
+	.wide-col{
+		width: 65%;
+		margin-right: 5%;
+	}
+	.narrow-col{
+		width: 30%;
+		font-size: 0.8em;
+	}
+	h1{
+		font-size: 2.8em;
+	}
+
+	p{
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width: 72.5em) {
+  	
+	.wrapper{
+		width: 72.5em;
+	}
+
+	header{
+		background-color: blue;
+	}
+
+
+	.wide-desk { 
+		display: block; 
+	}
+
+	.port-phone,
+	.land-phone,
+	.port-tab,
+	.desktop { 
+		display: none; 
+	}
+
+	h1{
+		font-size: 3.2em;
+
+	}
+
+	p{
+		font-size: 1.1em;
+	}
+
+}
